@@ -1,0 +1,19 @@
+- name: PHP
+  percentage: 85
+  color:
+
+- name: CodeIgniter 3
+  percentage: 85
+  color: danger
+
+- name: MySQL
+  percentage: 80
+  color: secondary
+
+- name: Kotlin
+  percentage: 80
+  color: warning
+
+- name: Java
+  percentage: 75
+  color: light

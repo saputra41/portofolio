@@ -1,0 +1,56 @@
+
+<div class="card-columns m-3 mt-5">
+
+  <!-- Remote certificates -->
+  {% for remote_certificate in page.remote_certificates %}
+
+    {%- for repo in site.github.public_repositories -%}
+
+      {%- if remote_certificate == repo.name -%}
+
+        {%- assign certificate = repo -%}
+        {%- assign words = certificate.name | split: '-' -%}
+        
+        {%- capture titlecase -%}
+          {%- for word in words -%}
+            {{ word | capitalize | append: ' ' }}
+          {%- endfor -%}
+        {%- endcapture -%}
+
+        {%- assign certificate_type  = "remote" -%}
+        {%- assign certificate_id    = certificate.name -%}
+        {%- assign certificate_img   = false -%}
+        {%- assign certificate_name  = titlecase | strip -%}
+        {%- assign certificate_desc  = certificate.description -%}
+        {%- assign certificate_url   = certificate.html_url -%}
+        {%- assign certificate_tools = certificate.topics -%}
+
+        {% include certificates/certificate-card.html %}
+
+      {%- endif -%}
+
+    {%- endfor -%}
+
+  {% endfor %}
+
+  <!-- Local certificates -->
+  {% for certificate in site.certificates %}
+
+    {%- assign certificate_type  = "local" -%}
+    {%- assign certificate_id    = certificate.name | slugify -%}
+    {%- assign certificate_img   = certificate.image -%}
+    {%- assign certificate_name  = certificate.name -%}
+    {%- assign certificate_desc  = certificate.description -%}
+    {%- assign certificate_tools = certificate.tools -%}
+
+    {%- if certificate.external_url -%}
+      {%- assign certificate_url = certificate.external_url -%}
+    {%- else -%}
+      {%- assign certificate_url = certificate.url | relative_url -%}
+    {%- endif -%}
+
+    {% include certificates/certificate-card.html %}
+
+  {% endfor %}
+
+</div>
