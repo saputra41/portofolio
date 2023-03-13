@@ -21,3 +21,4 @@ Fresh graduate of Diploma 3 Informatics Engineering, Dian Nuswantoro University 
 <div class="row">
 {% include about/timeline.html %}
 </div>
+<figure><embed src="https://wakatime.com/share/@bram41/0a38abc9-234b-49a4-bba5-107365fd00eb.svg"></embed></figure>
