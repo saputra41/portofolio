@@ -106,7 +106,6 @@ As a Full-Stack Developer with two years of experience, I have been involved in 
 
   const observer = new MutationObserver((mutations) => {
     mutations.forEach((mutation) => {
-      console.log(mutation.attributeName)
       if (mutation.attributeName === 'data-theme' && element.getAttribute('data-theme') === 'light') {
         document.getElementById("embed-wakatime").setAttribute("src", "https://wakatime.com/share/@bram41/4ea47abb-b5aa-42ce-8f7a-63b961449097.svg");
       } else {
