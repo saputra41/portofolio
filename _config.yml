@@ -16,17 +16,14 @@ nav_exclude: # The following paths are excluded from navbar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/partials/** # For Documentation Only
 
 ### Author Info ###
 author:
   name: Surya Saputra
   image: assets/img/me.jpeg
   email: surya.saputra030090@gmail.com
-  facebook: saputra41
   github: bram41
   linkedin: suryasaputra41
-  twitter: abrhmss_
 
 ### Posts ###
 permalink: /blog/:title
@@ -36,16 +33,12 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements: # For Documentation Only
-    output: true # For Documentation Only
 
 ### Collections ###
 collectcertif:
   projects:
     output: true
     permalink: /certificates/:name
-  elements: # For Documentation Only
-    output: true # For Documentation Only
 
 ### Disqus ###
 disqus:
@@ -64,11 +57,6 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope: # For Documentation Only
-      path: "" # For Documentation Only
-      type: "elements" # For Documentation Only
-    values: # For Documentation Only
-      layout: "element" # For Documentation Only
   - scope:
       path: ""
       type: "posts"

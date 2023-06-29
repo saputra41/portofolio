@@ -16,11 +16,6 @@ email:
   icon  : fas fa-envelope
   color : db4437
 
-facebook:
-  url   : https://www.facebook.com/
-  icon  : fab fa-facebook
-  color : 3b5998
-
 github:
   url   : https://www.github.com/
   icon  : fab fa-github
@@ -74,12 +69,7 @@ tumblr:
 twitch:
   url   : https://www.twitch.tv/
   icon  : fab fa-twitch
-  color : 6441a5
-
-twitter:
-  url   : https://www.twitter.com/
-  icon  : fab fa-twitter
-  color : 1da1f2
+  color : 6441a5 
 
 vimeo:
   url   : https://www.vimeo.com/
