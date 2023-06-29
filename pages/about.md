@@ -38,6 +38,9 @@ As a Full-Stack Developer with two years of experience, I have been involved in 
     - jQuery
   </div>
   <div class="col-md-4">
+    - JavaScript
+  </div>
+  <div class="col-md-4">
     - Kotlin
   </div>
   <div class="col-md-4">
@@ -86,19 +89,31 @@ As a Full-Stack Developer with two years of experience, I have been involved in 
 {% include about/timeline.html %}
 </div>
 
-<script>
+<script>  
+  document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(function() {
+      var htmlElement = document.querySelector('html');
+      var dataTheme = htmlElement.getAttribute('data-theme');
+      if(dataTheme == 'dark') {
+        document.getElementById("embed-wakatime").setAttribute("src", "https://wakatime.com/share/@bram41/9d706940-8339-4407-a94c-410b68980905.svg");
+      } else {                
+        document.getElementById("embed-wakatime").setAttribute("src", "https://wakatime.com/share/@bram41/4ea47abb-b5aa-42ce-8f7a-63b961449097.svg");
+      }  
+    });
+  });
+  
   const element = document.querySelector('[data-theme]');
 
   const observer = new MutationObserver((mutations) => {
     mutations.forEach((mutation) => {
+      console.log(mutation.attributeName)
       if (mutation.attributeName === 'data-theme' && element.getAttribute('data-theme') === 'light') {
-    		document.getElementById("embed-wakatime").setAttribute("src", "https://wakatime.com/share/@bram41/4ea47abb-b5aa-42ce-8f7a-63b961449097.svg");
+        document.getElementById("embed-wakatime").setAttribute("src", "https://wakatime.com/share/@bram41/4ea47abb-b5aa-42ce-8f7a-63b961449097.svg");
       } else {
-    		document.getElementById("embed-wakatime").setAttribute("src", "https://wakatime.com/share/@bram41/9d706940-8339-4407-a94c-410b68980905.svg");
+        document.getElementById("embed-wakatime").setAttribute("src", "https://wakatime.com/share/@bram41/9d706940-8339-4407-a94c-410b68980905.svg");
       }
     });
   });
 
   observer.observe(element, { attributes: true });
-
 </script>
