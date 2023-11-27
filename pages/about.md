@@ -8,7 +8,7 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-As a Full-Stack Developer with two years of experience, I have been involved in developing and maintaining applications for a major bank in Indonesia. I actively engage with clients, both on the business and technical aspects, to develop critical and complex software solutions that are functional, meet expectations, and perform well in the client's production environment.
+As a Full-Stack Developer with over two years of experience, I have actively participated in the development of various internal applications for my current company, utilizing the PHP programming language and the Outsystems low-code platform. In my previous experience, I contributed to the development and maintenance of applications for a major bank in Indonesia. I actively engage with clients, addressing both business and technical aspects, to craft critical and complex software solutions. These solutions are designed to be functional, meet client expectations, and exhibit optimal performance in the client's production environment.
 
 <style>
   #embed #preview-box.chart-type-table {
@@ -31,6 +31,9 @@ As a Full-Stack Developer with two years of experience, I have been involved in 
   <div class="col-md-4">
     - Framework Laravel
   </div>
+  <div class="col-md-4">
+    - Outsystems Platform
+  </div> 
   <div class="col-md-4">
     - MySQL
   </div> 
