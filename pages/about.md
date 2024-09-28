@@ -8,7 +8,9 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-As a Full-Stack Developer with over two years of experience, I have actively participated in the development of various internal applications for my current company, utilizing the PHP programming language and the Outsystems low-code platform. In my previous experience, I contributed to the development and maintenance of applications for a major bank in Indonesia. I actively engage with clients, addressing both business and technical aspects, to craft critical and complex software solutions. These solutions are designed to be functional, meet client expectations, and exhibit optimal performance in the client's production environment.
+As a Full-Stack Developer with over three years of experience, I have been actively involved in the development of various internal applications within my current company, with a primary focus on backend development using Golang. Before the development phase, I also contribute to system design and feature planning to ensure optimal functionality that meets the product owner's expectations. Additionally, I play a role in DevOps, where I utilize tools such as Podman, Kubernetes (K8s), Jenkins, SonarQube, and Nexus Repository to manage CI/CD pipelines, containerization, and automated deployments. I also have experience in application development using PHP and the Outsystems low-code platform.
+
+In a previous role, I contributed to the development and maintenance of applications for a bank in Indonesia. During this process, I worked closely with clients to understand their business and technical needs, helping to design critical and complex software solutions. I ensure that these solutions are not only functional and aligned with client expectations but also optimized for peak performance in production environments. My approach emphasizes efficiency, scalability, and long-term maintainability.
 
 <style>
   #embed #preview-box.chart-type-table {
@@ -22,37 +24,40 @@ As a Full-Stack Developer with over two years of experience, I have actively par
   <div class="col-12">
     <h2>Programming Skills</h2>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
+    - Golang
+  </div>
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - PHP
   </div>
-  <div class="col-md-4">
-    - Framework Codeigniter
+  <div class="col-md-6 col-sm-12 col-lg-4">
+    - Framework Codeigniter & Laravel
   </div>
-  <div class="col-md-4">
-    - Framework Laravel
-  </div>
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - Outsystems Platform
   </div> 
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
+    - PostgreSQL
+  </div> 
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - MySQL
   </div> 
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - jQuery
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - JavaScript
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - Kotlin
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - XML
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - JAVA
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - Python
   </div>
 </div>
@@ -61,19 +66,28 @@ As a Full-Stack Developer with over two years of experience, I have actively par
   <div class="col-12">
     <h2>Other Skills</h2>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
+    - Jenkins Pipeline
+  </div>
+  <div class="col-md-6 col-sm-12 col-lg-4">
+    - Kubernetes
+  </div>
+  <div class="col-md-6 col-sm-12 col-lg-4">
+    - Docker
+  </div>
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - Gitflow
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - Github
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - Gitlab
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - Bitbucket
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6 col-sm-12 col-lg-4">
     - REST APIs
   </div> 
 </div>
